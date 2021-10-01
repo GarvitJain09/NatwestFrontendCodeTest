@@ -55,7 +55,7 @@ function PaymentDataTable() {
           </thead>
           <tbody>
             {filter==='All'?dataTrans
-             
+              
               ?.map((data, index) => {
                 return (
                   <tr key={index}>
